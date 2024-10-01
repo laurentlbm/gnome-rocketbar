@@ -122,7 +122,7 @@ export const Taskbar = GObject.registerClass(
                 y_align: Clutter.ActorAlign.FILL
             });
 
-            this.add_actor(this._layout);
+            this.add_child(this._layout);
         }
 
         _createConnections() {

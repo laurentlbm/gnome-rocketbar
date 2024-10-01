@@ -108,7 +108,7 @@ class AppButtonMenuBase extends AppMenu {
 
             this.setApp(this._appButton.app);
 
-            Main.uiGroup.add_actor(this.actor);
+            Main.uiGroup.add_child(this.actor);
 
         } else {
             this._handleSettings();

@@ -299,7 +299,7 @@ export const AppButton = GObject.registerClass(
                 y_align: Clutter.ActorAlign.FILL
             });
 
-            this._layout.add_actor(this._appIcon);
+            this._layout.add_child(this._appIcon);
 
             this.set_child(this._layout);
         }
